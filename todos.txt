@@ -1,9 +1,5 @@
-1. wash face
-2. brush teeth
-3. stretch
-4. clean room
-5. work 1 hour
-6. eat breakfast
-7. rest eyes
-8. work more
-9. play games
+1. Brush teeth
+2. Morning stretches
+3. Eat breakfast
+4. Work
+5. Play games

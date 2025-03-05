@@ -27,10 +27,10 @@ for index, todo in enumerate(todo_list):
         todo_list.pop(index)
         functions.save_txt_file(todo_list)
         del st.session_state[todo]  # remove from session state dict
-        st.experimental_rerun()  # required for checkboxes
+        st.rerun()  # required for checkboxes
 
 # Input box for adding todos
-input_todo = st.text_input(label="",
+input_todo = st.text_input(label="Input your todo here",
                            placeholder="Add new todo..",
                            on_change=add_todo,
                            key="new_todo"
