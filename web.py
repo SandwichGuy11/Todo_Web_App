@@ -36,5 +36,4 @@ input_todo = st.text_input(label="",
                            key="new_todo"
                            )
 
-st.write("input: ", input_todo)
 # st.session_state
